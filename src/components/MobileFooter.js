@@ -44,7 +44,7 @@ export default function MobileFooter({ connected, ...props }) {
         </li>
         <li>
           <a
-            href="https://twitter.com/DustyVaultsNFT"
+            href="https://t.me/+Vm1fH5oqctlhODdh"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,7 +62,7 @@ export default function MobileFooter({ connected, ...props }) {
         </li>
         <li>
           <a
-            href="https://t.me/DustyVaults"
+            href="https://t.me/+Vm1fH5oqctlhODdh"
             target="_blank"
             rel="noreferrer"
           >

@@ -16,7 +16,7 @@ export const importToken = () => {
         type: 'ERC20',
         options: {
           address: SMARTCONTRACT_ADDRESS_ERC20,
-          symbol: '$Dusty',
+          symbol: '$CKI',
           decimals: 0,
           image: 'https://dusty-vaults.vercel.app/logo32x32.png',
         },
@@ -24,7 +24,7 @@ export const importToken = () => {
     })
       .then((success) => {
         if (success) {
-          successAlert('$Dusty token has been successfully added to your wallet. Please check your wallet.')
+          successAlert('$CKI token has been successfully added to your wallet. Please check your wallet.')
         } else {
           throw new Error('Something went wrong.')
         }

@@ -85,7 +85,7 @@ export default function StakeModal({
         setAgreeVali(true)
       }
     } else {
-      errorAlert("You don't have enough Dusty!")
+      errorAlert("You don't have enough CKI!")
     }
     setLoading(false)
   }
@@ -135,12 +135,12 @@ export default function StakeModal({
               <h1 style={{ border: "none" }}>{name}</h1>
               <p style={{ color: "#fff", borderBottom: "1px solid #ccc", textAlign: "right", fontSize: 12, paddingBottom: 10 }}>{description}</p>
               <div className="balence-info">
-                <p className="reward-value">Value:&nbsp;$Dusty&nbsp;<span>{real}</span></p>
+                <p className="reward-value">Value:&nbsp;$CKI&nbsp;<span>{real}</span></p>
               </div>
               <p className="reward-value">You can earn&nbsp;<span className="gold-color">$CKI&nbsp;<span>{(parseFloat(real) + (parseFloat(real) * steps[step])).toFixed(2)}</span></span> </p>
               <p className="reward-value">
                 +<span className="gold-color" style={{ fontSize: 12 }}>&nbsp;{(real * steps[step]).toFixed(2)}</span>
-                &nbsp;$dusty
+                &nbsp;$CKI
               </p>
             </div>
           </div>

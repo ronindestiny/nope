@@ -1068,14 +1068,7 @@ export const HINT = [
         title: "Can I withdraw my NFT within the 12 months?",
         description: "Ofcourse, CKI is all about Striking first, that includes profits."
     },
-    {
-        title: "What happens to my fees if I withdraw?",
-        description: "At the end of 12 months, we will send you back your initial $Dusty, plus all the extra $Dusty you have earned, plus any bonuses. Your $dusty and your NFT are now removed from the vault. You can either restake it and play again, or you can sell."
-    },
-    {
-        title: "What happens at the end of 12 months?",
-        description: "We automatically send the NFT + $Dusty back to their wallets, airdrop style"
-    },
+
     {
         title: "A friendly admin is asking for my seed phrase.",
         description: "Please don’t. Never ever."

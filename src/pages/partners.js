@@ -108,7 +108,7 @@ export default function Partners({ headerAlert, closeAlert, closeLoading }) {
         />
         <div className="partner page-content">
           <Head>
-            <title>Dusty Vaults | Partners</title>
+            <title>CKI | Partners</title>
             <meta name="description" content="Check partners of $CKI" />
             <link rel="icon" href="/favicon.ico" />
           </Head>

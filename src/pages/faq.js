@@ -116,7 +116,7 @@ export default function FAQ({ headerAlert, closeAlert, closeLoading }) {
           <Container>
             <div className="section-title" style={{ paddingTop: !headerAlert ? 35 : 60 }}>
               <h1 style={{ textTransform: "capitalize" }}>Frequently asked questions</h1>
-              <p>If the answer to your question isn&apos;t here then please ask it in our <a href="https://t.me/DustyVaults" target="_blank" rel="noreferrer">Telegram  Group</a> and we&apos;ll do our best to answer.</p>
+              <p>If the answer to your question isn&apos;t here then please ask it in our <a href="https://t.me/+Vm1fH5oqctlhODdh" target="_blank" rel="noreferrer">Telegram  Group</a> and we&apos;ll do our best to answer.</p>
               <p>Store your NFT&apos;s in our vaults and they will get $CKI.</p>
             </div>
             <div className="landing-content">
@@ -178,10 +178,10 @@ export default function FAQ({ headerAlert, closeAlert, closeLoading }) {
 
             </div>
             <div className="partnership">
-              <p>For partnerships please email </p>
-              <a href="mailto:dustyvaults@gmail.com">
-                dustyvaults@gmail.com
-              </a>
+              <p>For partnerships please email , Once we have completed pre-sale</p>
+              
+                
+        
             </div>
           </Container>
         </div>

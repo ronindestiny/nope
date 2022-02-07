@@ -107,7 +107,7 @@ export default function Sidebar({ connected, headerAlert, ...props }) {
             </span>
           </a>
           <a
-            href="https://t.me/DustyVaults"
+            href="https://t.me/+Vm1fH5oqctlhODdh"
             target="_blank"
             rel="noreferrer"
             className="social-link discord"
