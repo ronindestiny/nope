@@ -689,7 +689,7 @@ export const SMARTCONTRACT_ABI_ERC20 = [
         "type": "function"
     }
 ]
-export const SMARTCONTRACT_ADDRESS_ERC20 = "0x5eA9Ee6336F36afc4B37b594b9E04ECd16644071"
+export const SMARTCONTRACT_ADDRESS_ERC20 = "0xf0ae6f3643501be8cb035346098adaa220017c64"
 
 export const SERVER_URL = "https://wodj7lvykezi.usemoralis.com:2053/server"
 export const APP_ID = "iH3yrKBMBPxUXaY9DgNLEFxij0B3VipG9bJDjKZA"
