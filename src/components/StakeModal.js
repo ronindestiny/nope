@@ -163,7 +163,7 @@ export default function StakeModal({
               />
               <p>
               I Understand, That $CKI Does Not Hold Ownership Of My NFT, I Also Understand, That $CKI Will Take Care Of My Baby, Until My Bag Is Full, I Also Understand, That Should
-                Anything Happen That Is Out Of $CKI's Control, That The Team Will make It Right Still, Because The Team Is About Community, And Investor Security.
+                Anything Happen That Is Out Of $CKIs Control, That The Team Will make It Right Still, Because The Team Is About Community, And Investor Security.
               </p>
               {agreeVali &&
                 <p className="check-validation">This field is required!</p>

@@ -23,7 +23,7 @@ export default function HomePage({
     <div className="full-page">
       <div className="homebanner">
         <h1><i>Cobra Kai Inu</i></h1>
-        <p>Stake your NFT's for some extra $CKI, easy secure, You Still hold ownership.</p>
+        <p>Stake your NFTs for some extra $CKI, easy secure, You Still hold ownership.</p>
         {/* eslint-disable-next-line */}
         <img
           src="./safe.png"
