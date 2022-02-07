@@ -29,7 +29,7 @@ export default function GuideBanner() {
         </div>
       </div>
       <div className="guide-item">
-        <p>Come back in 12 months to Claim</p>
+        <p>Come back Whenever to Claim</p>
         {/* eslint-disable-next-line */}
         <img
           src='./help-3.svg'

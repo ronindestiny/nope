@@ -82,7 +82,7 @@ export default function CardModal({
         setAgreeVali(true)
       }
     } else {
-      errorAlert("You don't have enough Dusty!")
+      errorAlert("You don't have enough CKI!")
     }
   }
 
@@ -147,8 +147,8 @@ export default function CardModal({
                 icon={<BpIcon />}
               />
               <p>
-                I understand this is a 12 monthly storage option and that if I wish to withdraw my NFTs
-                prior to that I will not receive my initial $Dusty or earned fees.
+                I Understand, That $CKI Does Not Hold Ownership Of My NFT, I Also Understand, That $CKI Will Take Care Of My Baby, Until My Bag Is Full, I Also Understand, That Should
+                Anything Happen That Is Out Of $CKI's Control, That The Team Will make It Right Still, Because The Team Is About Community, And Investor Security.
               </p>
               {agreeVali &&
                 <p className="check-validation">This field is required!</p>

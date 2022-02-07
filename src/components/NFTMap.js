@@ -172,7 +172,7 @@ export default function NFTMap({
   const openUnstake = () => {
     setHide(!hide)
     Swal.fire({
-      title: 'Do you really want to remove this NFT from the vault? You will lose all $Dusty associated with it',
+      title: 'Do you really want to remove this NFT from the vault?',
       confirmButtonText: 'Unstake',
     }).then((result) => {
       /* Read more about isConfirmed, isDenied below */

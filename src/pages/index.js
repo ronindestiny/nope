@@ -228,7 +228,7 @@ export default function Home({ headerAlert, closeAlert, closeLoading }) {
         />
         <div className="page-content">
           <Head>
-            <title>Dusty Vaults | Home</title>
+            <title>$CKI | Home</title>
             <meta name="description" content="NFT Bank" />
             <link rel="icon" href="/favicon.ico" />
           </Head>

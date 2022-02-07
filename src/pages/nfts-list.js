@@ -196,7 +196,7 @@ export default function NFTLIST({
         />
         <div className='page-content'>
           <Head>
-            <title>Dusty Vaults | NFTs List</title>
+            <title>CKI | NFTs List</title>
             <meta name="description" content="NFT Bank" />
             <link rel="icon" href="/favicon.ico" />
           </Head>

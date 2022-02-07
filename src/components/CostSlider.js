@@ -124,7 +124,7 @@ export default function CostSlider({
           disabled={disabled}
           onChange={handleChange}
         />
-        <p className="your-balance">Your balance:&nbsp;$Dusty&nbsp;
+        <p className="your-balance">Your balance:&nbsp;$CKI&nbsp;
           <span>{new Intl.NumberFormat().format(parseFloat(balance).toFixed(2))}</span>
         </p>
       </div>

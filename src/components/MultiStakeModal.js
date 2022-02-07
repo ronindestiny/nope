@@ -86,7 +86,7 @@ export default function MultiStakeModal({
         setAgreeVali(true)
       }
     } else {
-      errorAlert("You don't have enough Dusty!")
+      errorAlert("You don't have enough CKI!")
     }
     setLoading(false)
   }
@@ -164,10 +164,10 @@ export default function MultiStakeModal({
             <div className="modal-cover-content">
               <h1>{count} NFT{count !== 1 && "s"}</h1>
               <div className="balence-info">
-                <p className="reward-value">Value:&nbsp;$Dusty&nbsp;<span>{(parseFloat(real) * count).toFixed(2)}</span></p>
+                <p className="reward-value">Value:&nbsp;$CKI&nbsp;<span>{(parseFloat(real) * count).toFixed(2)}</span></p>
               </div>
-              <p className="reward-value">You can earn&nbsp;<span className="gold-color">$Dusty&nbsp;<span>{((parseFloat(real) + parseFloat(real) * steps[step]) * count).toFixed(2)}</span></span> after 12 months.</p>
-              <p className="reward-value">+<span className="gold-color" style={{ fontSize: 12 }}>&nbsp;{(real * steps[step]).toFixed(2)} {count !== 1 && <>&nbsp;x&nbsp;{count} = {(real * steps[step] * count).toFixed(2)}</>}</span> $dusty</p>
+              <p className="reward-value">You can earn&nbsp;<span className="gold-color">$CKI&nbsp;<span>{((parseFloat(real) + parseFloat(real) * steps[step]) * count).toFixed(2)}</span></span> </p>
+              <p className="reward-value">+<span className="gold-color" style={{ fontSize: 12 }}>&nbsp;{(real * steps[step]).toFixed(2)} {count !== 1 && <>&nbsp;x&nbsp;{count} = {(real * steps[step] * count).toFixed(2)}</>}</span> $CKI</p>
             </div>
           </div>
           <div className="modal-content">
@@ -188,8 +188,8 @@ export default function MultiStakeModal({
                 icon={<BpIcon />}
               />
               <p>
-                I understand this is a 12 monthly storage option and that if I wish to withdraw my NFTs
-                prior to that I will not receive my initial $Dusty or earned fees.
+              I Understand, That $CKI Does Not Hold Ownership Of My NFT, I Also Understand, That $CKI Will Take Care Of My Baby, Until My Bag Is Full, I Also Understand, That Should
+                Anything Happen That Is Out Of $CKI's Control, That The Team Will make It Right Still, Because The Team Is About Community, And Investor Security.
               </p>
               {agreeVali &&
                 <p className="check-validation">This field is required!</p>

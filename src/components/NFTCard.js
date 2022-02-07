@@ -152,7 +152,7 @@ export default function NFTCard({
 
   const openUnstake = () => {
     Swal.fire({
-      title: 'Do you really want to remove this NFT from the vault? You will lose all $Dusty associated with it',
+      title: 'Do you really want to remove this NFT from the vault?',
       showCancelButton: true,
       confirmButtonText: 'Unstake',
     }).then((result) => {

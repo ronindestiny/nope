@@ -22,8 +22,8 @@ export default function HomePage({
   return (
     <div className="full-page">
       <div className="homebanner">
-        <h1><i>Dusty Vaults</i></h1>
-        <p>Deposit your NFT&apos;s in our secure vault for the next 12 months and earn up to 50% per annum + be eligible for NFT airdrops &amp; prizes. It&apos;s time for your NFT&apos;s to start earning for you!</p>
+        <h1><i>Cobra Kai Inu</i></h1>
+        <p>Stake your NFT's for some extra $CKI, easy secure, You Still hold ownership.</p>
         {/* eslint-disable-next-line */}
         <img
           src="./safe.png"
@@ -57,7 +57,7 @@ export default function HomePage({
                 </div>
               </div>
               <div className="dashboard-item user-box display-center" style={{ background: "linear-gradient(135deg, #4f00ff, #450a8f" }}>
-                <h2>Total Reward&nbsp;($Dusty)</h2>
+                <h2>Total Reward&nbsp;($CKI)</h2>
                 <p>
                   {!loading ? parseFloat(totalReward).toFixed(2) : <Skeleton width={120} sx={{ bgcolor: '#ffffff20' }} height={45} style={{ margin: "5px auto", backgroundColor: "ffffff3d" }} />}
                 </p>
@@ -66,7 +66,7 @@ export default function HomePage({
           }
           <div className="home-row">
             <div className="dashboard-item">
-              <h2>How many wallets hold <span>$Dusty</span></h2>
+              <h2>How many wallets hold <span>$CKI</span></h2>
               <p>
                 {connected ? (!homeLoading ? new Intl.NumberFormat().format(holders) : <Skeleton width={120} sx={{ bgcolor: '#ffffff20' }} height={50} style={{ marginLeft: "auto", backgroundColor: "ffffff3d" }} />) : <span>N/A</span>}
               </p>
@@ -99,7 +99,7 @@ export default function HomePage({
               </svg>
             </div>
             <div className="dashboard-item">
-              <h2>How much $Dusty is currently in the bonus/charity pool</h2>
+              <h2>How much $CKI is currently in the bonus/charity pool</h2>
               <p>{connected ? (!homeLoading ? new Intl.NumberFormat().format(ethers.utils.formatEther(ownerDusty.toLocaleString('fullwide', { useGrouping: false }))) : <Skeleton width={120} sx={{ bgcolor: '#ffffff20' }} height={50} style={{ marginLeft: "auto", backgroundColor: "ffffff3d" }} />) : <span>N/A</span>}</p>
               <svg width="80" height="80" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_7_20)">
@@ -116,11 +116,11 @@ export default function HomePage({
           </div>
           <div className="home-row">
             <div className="dashboard-item">
-              <h2>Total $Dusty Supply</h2>
+              <h2>Total $CKI Supply</h2>
               <p>{connected ? (!homeLoading ? new Intl.NumberFormat().format(10000000) : <Skeleton width={120} sx={{ bgcolor: '#ffffff20' }} height={50} style={{ marginLeft: "auto", backgroundColor: "ffffff3d" }} />) : <span>N/A</span>}</p>
             </div>
             <div className="dashboard-item">
-              <h2>Total $Dusty locked</h2>
+              <h2>Total $CKI locked</h2>
               <p>{connected ? (!homeLoading ? new Intl.NumberFormat().format(10000000 - parseFloat(totalSupply) + parseFloat(ethers.utils.formatEther(totalDusty))) : <Skeleton width={120} sx={{ bgcolor: '#ffffff20' }} height={50} style={{ marginLeft: "auto", backgroundColor: "ffffff3d" }} />) : <span>N/A</span>}</p>
             </div>
           </div>

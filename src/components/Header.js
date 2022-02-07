@@ -42,9 +42,9 @@ export default function Header({
               {/* eslint-disable-next-line */}
               <img
                 src="./logo.png"
-                alt="Dusty Vaults"
+                alt="$CKI"
               />
-              <i>Dusty Vaults</i>
+              <i>Cobra Kai Inu</i>
             </a>
           </Link>
         </div>
@@ -53,7 +53,7 @@ export default function Header({
           <ul>
             {connected &&
               <li>
-                <p className="signer-balance"><span>Your $Dusty:</span>&nbsp;
+                <p className="signer-balance"><span>Your $CKI:</span>&nbsp;
                   {loading ?
                     <Skeleton width={90} sx={{ bgcolor: '#ffffff20' }} height={32} style={{ backgroundColor: "ffffff3d" }} />
                     :
