@@ -691,8 +691,8 @@ export const SMARTCONTRACT_ABI_ERC20 = [
 ]
 export const SMARTCONTRACT_ADDRESS_ERC20 = "0xf0ae6f3643501be8cb035346098adaa220017c64"
 
-export const SERVER_URL = "https://wodj7lvykezi.usemoralis.com:2053/server"
-export const APP_ID = "iH3yrKBMBPxUXaY9DgNLEFxij0B3VipG9bJDjKZA"
+export const SERVER_URL = "https://bqti1o9qlayo.usemoralis.com:2053/server"
+export const APP_ID = "craQ2oEAW17sDtx3Z8bmOwhPEYvtj35p0XWZIJyP"
 
 export const SMARCONTRACT_INI_ABI = [
     {
