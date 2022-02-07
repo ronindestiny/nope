@@ -1,5 +1,5 @@
 export const CHAIN_ID = 56
-export const SMARTCONTRACT_ADDRESS = "0x5eA9Ee6336F36afc4B37b594b9E04ECd16644071"
+export const SMARTCONTRACT_ADDRESS = "0xf0ae6F3643501bE8cB035346098Adaa220017c64"
 export const SMARTCONTRACT_ABI = [
     {
         "inputs": [],
@@ -691,8 +691,8 @@ export const SMARTCONTRACT_ABI_ERC20 = [
 ]
 export const SMARTCONTRACT_ADDRESS_ERC20 = "0x5eA9Ee6336F36afc4B37b594b9E04ECd16644071"
 
-export const SERVER_URL = "https://bqti1o9qlayo.usemoralis.com:2053/server"
-export const APP_ID = "craQ2oEAW17sDtx3Z8bmOwhPEYvtj35p0XWZIJyP"
+export const SERVER_URL = "https://wodj7lvykezi.usemoralis.com:2053/server"
+export const APP_ID = "iH3yrKBMBPxUXaY9DgNLEFxij0B3VipG9bJDjKZA"
 
 export const SMARCONTRACT_INI_ABI = [
     {
